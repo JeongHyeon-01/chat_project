@@ -1,0 +1,38 @@
+.chat-header {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chat-room-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-room-info h2 {
+    margin-right: 10px;
+  }
+  
+  .status {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .role {
+    color: #666;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

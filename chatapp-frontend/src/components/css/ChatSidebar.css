@@ -1,0 +1,62 @@
+.chat-sidebar {
+    width: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .new-message-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .conversation-list {
+    overflow-y: auto;
+  }
+  
+  .conversation {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .conversation-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .conversation-name {
+    font-weight: bold;
+  }
+  
+  .conversation-time {
+    color: #999;
+  }
+  
+  .conversation-message {
+    color: #666;
+  }
+  .logout-button-sidebar {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
